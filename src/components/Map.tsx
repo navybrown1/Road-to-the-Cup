@@ -40,7 +40,8 @@ function MapController({ selectedStadium }: { selectedStadium: Stadium | null })
   const map = useMap();
   
   useEffect(() => {
-    console.log('MapController effect:', { selectedStadium, FORT_DRUM_COORDS });
+    const centerCoords: [number, number] = [44.0333, -75.7667];
+    console.log('MapController effect:', { selectedStadium, centerCoords });
     if (selectedStadium) {
       if (!selectedStadium.coordinates || isNaN(selectedStadium.coordinates[0]) || isNaN(selectedStadium.coordinates[1])) {
         console.error('Invalid coordinates for selected stadium:', selectedStadium);
@@ -48,11 +49,7 @@ function MapController({ selectedStadium }: { selectedStadium: Stadium | null })
       }
       map.flyTo(selectedStadium.coordinates, 6, { duration: 1.5 });
     } else {
-      if (!FORT_DRUM_COORDS || isNaN(FORT_DRUM_COORDS[0]) || isNaN(FORT_DRUM_COORDS[1])) {
-        console.error('Invalid FORT_DRUM_COORDS:', FORT_DRUM_COORDS);
-        return;
-      }
-      map.flyTo(FORT_DRUM_COORDS, 5, { duration: 1.5 });
+      map.flyTo(centerCoords, 5, { duration: 1.5 });
     }
   }, [selectedStadium, map]);
 
@@ -66,10 +63,12 @@ export default function WorldCupMap({ selectedStadium, onSelectStadium }: MapPro
     return <div>Error: Invalid FORT_DRUM_COORDS</div>;
   }
 
+  const centerCoords: [number, number] = [44.0333, -75.7667];
+
   return (
     <div className="h-full w-full rounded-2xl overflow-hidden shadow-lg border border-outline-variant/20 relative z-0">
       <MapContainer 
-        center={FORT_DRUM_COORDS} 
+        center={centerCoords} 
         zoom={5} 
         scrollWheelZoom={true}
         className="h-full w-full"
@@ -82,7 +81,7 @@ export default function WorldCupMap({ selectedStadium, onSelectStadium }: MapPro
         <MapController selectedStadium={selectedStadium} />
 
         {/* Fort Drum Marker */}
-        <Marker position={FORT_DRUM_COORDS} icon={customIcon('black')}>
+        <Marker position={centerCoords} icon={customIcon('black')}>
           <Popup className="custom-popup">
             <div className="p-4">
               <div className="font-headline font-bold text-primary">Fort Drum, NY</div>
@@ -157,7 +156,7 @@ export default function WorldCupMap({ selectedStadium, onSelectStadium }: MapPro
           return (
           <Polyline 
             key={`line-${stadium.id}`}
-            positions={[FORT_DRUM_COORDS, stadium.coordinates]}
+            positions={[centerCoords, stadium.coordinates]}
             pathOptions={{ 
               color: selectedStadium?.id === stadium.id ? '#ba022d' : '#00153e', 
               weight: selectedStadium?.id === stadium.id ? 3 : 1,

@@ -35,9 +35,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '3h 15m',
     travelMode: 'Driving',
     coordinates: [43.6332, -79.4186],
-    image: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/BMO_Field_in_2016.png',
     gallery: [
-      'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=2070&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/d/d2/BMO_Field_in_2016.png',
       'https://images.unsplash.com/photo-1517090504586-fde19ea6066f?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -62,9 +62,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '5h 15m',
     travelMode: 'Driving',
     coordinates: [42.0909, -71.2643],
-    image: 'https://images.unsplash.com/photo-1572915360621-122e28c70fd5?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/1280px-Gillette_Stadium_%28Top_View%29.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1572915360621-122e28c70fd5?q=80&w=2000&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/1280px-Gillette_Stadium_%28Top_View%29.jpg',
       'https://images.unsplash.com/photo-1506522063241-19525c3c0428?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -90,9 +90,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '5h 15m',
     travelMode: 'Driving',
     coordinates: [40.8128, -74.0745],
-    image: 'https://images.unsplash.com/photo-1577223625816-7546f13df25d?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/1280px-Metlife_stadium_%28Aerial_view%29.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1577223625816-7546f13df25d?q=80&w=2070&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/1280px-Metlife_stadium_%28Aerial_view%29.jpg',
       'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -119,9 +119,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '6h 30m',
     travelMode: 'Driving',
     coordinates: [39.9008, -75.1675],
-    image: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lincoln_Financial_Field_%28Aerial_view%29.jpg/1280px-Lincoln_Financial_Field_%28Aerial_view%29.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=2070&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lincoln_Financial_Field_%28Aerial_view%29.jpg/1280px-Lincoln_Financial_Field_%28Aerial_view%29.jpg',
       'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1598424268688-61614949514f?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -146,9 +146,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '3h 30m',
     travelMode: 'Flight',
     coordinates: [25.9580, -80.2389],
-    image: 'https://images.unsplash.com/photo-1508344928928-7165b67de128?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg/1280px-Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1508344928928-7165b67de128?q=80&w=2070&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg/1280px-Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg',
       'https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1533760581984-753ee014c330?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -174,9 +174,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '7h 00m',
     travelMode: 'Flight',
     coordinates: [49.2768, -123.1120],
-    image: 'https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BC_Place_2015_Women%27s_FIFA_World_Cup.jpg/1280px-BC_Place_2015_Women%27s_FIFA_World_Cup.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BC_Place_2015_Women%27s_FIFA_World_Cup.jpg/1280px-BC_Place_2015_Women%27s_FIFA_World_Cup.jpg',
       'https://images.unsplash.com/photo-1559511260-66a654ae982a?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1560814304-4f05b62af116?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -228,9 +228,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '6h 00m',
     travelMode: 'Flight',
     coordinates: [33.9534, -118.3387],
-    image: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/SoFi_Stadium_2023.jpg/1280px-SoFi_Stadium_2023.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2000&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/SoFi_Stadium_2023.jpg/1280px-SoFi_Stadium_2023.jpg',
       'https://images.unsplash.com/photo-1580659328774-c2741f586648?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1534190239940-9ba8944ea261?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -256,9 +256,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '5h 45m',
     travelMode: 'Flight',
     coordinates: [47.5952, -122.3316],
-    image: 'https://images.unsplash.com/photo-1572915360621-122e28c70fd5?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Qwest_Field_North.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1572915360621-122e28c70fd5?q=80&w=2000&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/5/53/Qwest_Field_North.jpg',
       'https://images.unsplash.com/photo-1502175353174-a7a70e73b362?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1542223616-740d5dff7f56?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -283,9 +283,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '4h 00m',
     travelMode: 'Flight',
     coordinates: [32.7473, -97.0945],
-    image: 'https://images.unsplash.com/photo-1582971103098-bfc707d2ad92?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg/1280px-Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1582971103098-bfc707d2ad92?q=80&w=2000&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg/1280px-Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg',
       'https://images.unsplash.com/photo-1531218150217-5afc46c55585?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -313,9 +313,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '2h 30m',
     travelMode: 'Flight',
     coordinates: [33.7554, -84.4006],
-    image: 'https://images.unsplash.com/photo-1574624608304-454316a82700?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg/1280px-Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1574624608304-454316a82700?q=80&w=2000&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg/1280px-Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg',
       'https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -342,9 +342,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '4h 30m',
     travelMode: 'Flight',
     coordinates: [29.6847, -95.4107],
-    image: 'https://images.unsplash.com/photo-1531218150217-5afc46c55585?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nrg_stadium.jpg/1280px-Nrg_stadium.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1531218150217-5afc46c55585?q=80&w=2000&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nrg_stadium.jpg/1280px-Nrg_stadium.jpg',
       'https://images.unsplash.com/photo-1555580168-9c7ee808b8b0?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1516889441113-132d7310df04?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -370,9 +370,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '3h 30m',
     travelMode: 'Flight',
     coordinates: [39.0489, -94.4839],
-    image: 'https://images.unsplash.com/photo-1582971103098-bfc707d2ad92?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg/1280px-Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1582971103098-bfc707d2ad92?q=80&w=2000&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg/1280px-Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg',
       'https://images.unsplash.com/photo-1590880449155-b54f958ce314?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -397,9 +397,9 @@ export const STADIUMS: Stadium[] = [
     travelTime: '6h 30m',
     travelMode: 'Flight',
     coordinates: [37.4032, -121.9698],
-    image: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg/1280px-Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2000&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg/1280px-Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg',
       'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2000&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1449034446853-66c86144b0ad?q=80&w=2000&auto=format&fit=crop'
     ],
@@ -424,11 +424,11 @@ export const STADIUMS: Stadium[] = [
     travelTime: '6h 00m',
     travelMode: 'Flight',
     coordinates: [20.6817, -103.4626],
-    image: 'https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=2069&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg/1280px-Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=2069&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1585464231875-d9ef1f5ad396?q=80&w=2000&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?q=80&w=2000&auto=format&fit=crop'
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg/1280px-Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg',
+      'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?q=80&w=2000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1562057638-c6460fae2311?q=80&w=2000&auto=format&fit=crop'
     ],
     description: 'A beautiful modern stadium in Mexico.',
     status: 'Flight Rec',
@@ -449,11 +449,11 @@ export const STADIUMS: Stadium[] = [
     travelTime: '5h 00m',
     travelMode: 'Flight',
     coordinates: [25.6698, -100.2444],
-    image: 'https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=2069&auto=format&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Estadio_BBVA_Bancomer_%281%29.jpg/1280px-Estadio_BBVA_Bancomer_%281%29.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=2069&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1585464231875-d9ef1f5ad396?q=80&w=2000&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?q=80&w=2000&auto=format&fit=crop'
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Estadio_BBVA_Bancomer_%281%29.jpg/1280px-Estadio_BBVA_Bancomer_%281%29.jpg',
+      'https://images.unsplash.com/photo-1605282540540-333065275817?q=80&w=2000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1580837119756-563d608dd119?q=80&w=2000&auto=format&fit=crop'
     ],
     description: 'Stunning stadium with views of the Cerro de la Silla mountain.',
     status: 'Flight Rec',
